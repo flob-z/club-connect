@@ -1,0 +1,6 @@
+club_id,club_name,category,description,members_count,meeting_days,location,popularity_score,skills_required,recommended_for
+1,Robotics Club,Technology,A club for students interested in building robots and programming.,50,"Monday, Wednesday",Lab 101,9,"Programming, Electronics",STEM students
+2,Drama Society,Arts,"A society for acting, theater, and scriptwriting enthusiasts.",40,"Tuesday, Thursday",Auditorium,8,"Acting, Scriptwriting",Creative students
+3,Basketball Team,Sports,For students who love playing basketball and competing in tournaments.,35,"Wednesday, Friday",Gym,10,"Athletics, Teamwork",Athletes
+4,Chess Club,Strategy,A club where students play and compete in chess tournaments.,25,"Monday, Thursday",Room 202,7,"Strategy, Patience",Logical thinkers
+5,Music Band,Music,A band for students passionate about singing and playing instruments.,45,Friday,Music Room,9,"Singing, Instrument Playing",Music lovers

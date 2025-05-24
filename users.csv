@@ -1,0 +1,9 @@
+id,name,email,password,role,department
+1,John,john@gmail.com,123456,Student,Computer Science
+2,Carlos,carlos@gmail.com,123456,Student,Health
+3,Richard,richard@gmail.com,123456,Admin,Admin
+4,Vance,vance@gmail.com,123456,Admin,Admin
+5,Jack,jack@gmail.com,123456,Student,Finance
+6,Ronald,ronald@gmail.com,123456,student,Information Technology
+7,Farouk,farouk@gmail.com,123456,student,Finance
+8,David,david@gmail.com,123456,student,Health

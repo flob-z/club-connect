@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Profile - MKU Club Connect</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .container {
+            max-width: 900px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h2, h3 {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .section-title {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .admin-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .btn-admin {
+            flex-grow: 1;
+            font-size: 16px;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+        }
+
+        .btn-admin:hover {
+            background-color: #0056b3;
+        }
+
+        .stats-section {
+            background: #eef4ff;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .stats-section div {
+            text-align: center;
+        }
+
+        .stats-section span {
+            font-size: 22px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .card-section {
+            background-color: #fafbfc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .admin-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Admin Dashboard</h2>
+
+    <!-- Admin Information -->
+    <div class="row card-section">
+        <div class="col-md-12">
+            <h3>Profile Information</h3>
+            <p><strong>Name:</strong> {{ current_user.name }}</p>
+            <p><strong>Email:</strong> {{ current_user.email }}</p>
+            <p><strong>Role:</strong> Administrator</p>
+        </div>
+    </div>
+
+    <!-- System Overview -->
+    <div class="section-title">System Overview</div>
+    <div class="stats-section">
+        <div>
+            <span>{{ total_users }}</span>
+            <p>Registered Users</p>
+        </div>
+        <div>
+            <span>{{ total_clubs }}</span>
+            <p>Active Clubs</p>
+        </div>
+        <div>
+            <span>{{ total_events }}</span>
+            <p>Upcoming Events</p>
+        </div>
+    </div>
+
+    <!-- Admin Actions -->
+    <div class="section-title">Admin Controls</div>
+    <div class="card-section admin-actions">
+        <a href="{{ url_for('manage_clubs') }}" class="btn-admin">Manage Clubs</a>
+        <a href="{{ url_for('manage_users') }}" class="btn-admin">Manage Users</a>
+        <a href="{{ url_for('manage_events') }}" class="btn-admin">Manage Events</a>
+        <a href="{{ url_for('settings') }}" class="btn-admin">Site Settings</a>
+    </div>
+
+    <!-- Account Settings -->
+    <div class="section-title">Update Profile</div>
+    <form action="{{ url_for('update_profile') }}" method="POST" class="card-section">
+        <div class="form-group">
+            <label for="name">Update Name:</label>
+            <input type="text" class="form-control" id="name" name="name" value="{{ current_user.name }}" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Update Email:</label>
+            <input type="email" class="form-control" id="email" name="email" value="{{ current_user.email }}" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Update Profile</button>
+    </form>
+
+    <!-- Password Update -->
+    <div class="section-title mt-4">Change Password</div>
+    <form action="{{ url_for('update_password') }}" method="POST" class="card-section">
+        <div class="form-group">
+            <label for="current_password">Current Password:</label>
+            <input type="password" class="form-control" id="current_password" name="current_password" required>
+        </div>
+        <div class="form-group">
+            <label for="new_password">New Password:</label>
+            <input type="password" class="form-control" id="new_password" name="new_password" required>
+        </div>
+        <button type="submit" class="btn btn-danger">Change Password</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

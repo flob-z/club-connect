@@ -1,0 +1,398 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8 0%, #e6eef5 100%);
+    color: #546e7a;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 950px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+h2, h3 {
+    color: #5b8a72;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2:after, h3:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #5b8a72, #8fb3a0);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+}
+
+/* User Information Section */
+h3 {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Card Layout */
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07), 
+                0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    margin-bottom: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    margin-bottom: 35px;
+    border: 1px solid #e0e7ee;
+    position: relative;
+    overflow: hidden;
+}
+
+form:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #6a9f7c, #a8cfb8);
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1px solid #d0dde9;
+    margin-bottom: 18px;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #8fb3a0;
+    box-shadow: 0 0 0 3px rgba(143, 179, 160, 0.25);
+    background-color: #fff;
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4a6572;
+}
+
+button[type="submit"] {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #6a9f7c 0%, #5b8a72 100%);
+    color: white;
+    box-shadow: 0 4px 10px rgba(106, 159, 124, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #5b8a72 0%, #4a7561 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(91, 138, 114, 0.4);
+}
+
+button[type="submit"]:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(91, 138, 114, 0.4);
+}
+
+button[type="submit"].btn-danger {
+    background: linear-gradient(135deg, #e57373 0%, #d32f2f 100%);
+    box-shadow: 0 4px 10px rgba(229, 115, 115, 0.3);
+}
+
+button[type="submit"].btn-danger:hover {
+    background: linear-gradient(135deg, #d32f2f 0%, #c62828 100%);
+    box-shadow: 0 6px 15px rgba(211, 47, 47, 0.4);
+}
+
+/* Favorite Books Section */
+ul.list-group {
+    padding-left: 0;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+}
+
+ul.list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #e0e7ee;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+ul.list-group-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: linear-gradient(to bottom, #6a9f7c, #8fb3a0);
+    border-radius: 4px 0 0 4px;
+}
+
+ul.list-group-item:hover {
+    background-color: #f5f9f7;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    z-index: 1;
+}
+
+ul.list-group-item img {
+    margin-right: 15px;
+    border-radius: 8px;
+    max-width: 65px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+ul.list-group-item:hover img {
+    transform: scale(1.1);
+}
+
+ul.list-group-item small {
+    font-size: 0.8rem;
+    color: #90a4ae;
+    width: 100%;
+    text-align: right;
+    margin-top: 8px;
+}
+
+/* Reading History Table */
+.table-container {
+    overflow-x: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+table.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+table.table th, table.table td {
+    padding: 16px 20px;
+    text-align: left;
+}
+
+table.table th {
+    background: linear-gradient(135deg, #6a9f7c 0%, #5b8a72 100%);
+    color: white;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+table.table th:first-child {
+    border-top-left-radius: 12px;
+}
+
+table.table th:last-child {
+    border-top-right-radius: 12px;
+}
+
+table.table tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+table.table tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+table.table tr {
+    transition: all 0.2s ease;
+}
+
+table.table tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+table.table tr:hover {
+    background-color: #f0f7f3;
+}
+
+table.table td {
+    border-bottom: 1px solid #e0e7ee;
+}
+
+/* Delete Account Section */
+form[action*="delete_account"] {
+    background: rgba(255, 245, 245, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+    border: 1px solid #ffcdd2;
+    position: relative;
+}
+
+form[action*="delete_account"]:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #e57373, #ffcdd2);
+}
+
+form[action*="delete_account"] button {
+    background: linear-gradient(135deg, #e57373 0%, #d32f2f 100%);
+    color: white;
+    font-weight: 500;
+}
+
+form[action*="delete_account"] button:hover {
+    background: linear-gradient(135deg, #d32f2f 0%, #c62828 100%);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 1rem auto;
+    }
+
+    h2, h3 {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    ul.list-group {
+        grid-template-columns: 1fr;
+    }
+
+    ul.list-group-item {
+        padding: 15px;
+    }
+
+    ul.list-group-item img {
+        max-width: 55px;
+    }
+
+    table.table th, table.table td {
+        padding: 12px 15px;
+    }
+    
+    table.table th {
+        font-size: 0.95rem;
+    }
+
+    button[type="submit"] {
+        padding: 12px 20px;
+        width: 100%;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin: 0.5rem auto;
+    }
+
+    .card {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    button[type="submit"] {
+        font-size: 0.95rem;
+    }
+
+    ul.list-group-item {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+
+    table.table th, table.table td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}

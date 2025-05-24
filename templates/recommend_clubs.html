@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Clubs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="container mt-5">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('dashboard') }}">Club Recommendation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('list_clubs') }}">All Clubs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center mb-4">Recommended Clubs for You</h1>
+
+    {% if recommended_clubs %}
+        <div class="row">
+            {% for club in recommended_clubs %}
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ club.name }}</h5>
+                            <p class="card-text"><strong>Category:</strong> {{ club.category }}</p>
+                            <p class="card-text"><strong>Description:</strong> {{ club.description }}</p>
+                            <a href="{{ url_for('club_detail', club_id=club.id) }}" class="btn btn-primary">View Club</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-center">No club recommendations available at the moment.</p>
+    {% endif %}
+
+    <footer class="text-center mt-5 py-3 bg-light">
+        <p>&copy; 2025 Club Recommendation System</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

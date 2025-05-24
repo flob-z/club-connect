@@ -1,0 +1,35 @@
+{% extends 'base1.html' %}
+
+{% block title %}Edit Club - {{ club.name }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center">Edit Club: {{ club.name }}</h2>
+    <div class="card p-4 shadow-sm">
+        <form action="{{ url_for('edit_club', club_id=club.id) }}" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Club Name</label>
+                <input type="text" id="name" name="name" class="form-control" value="{{ club.name }}" required>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea id="description" name="description" class="form-control" rows="4" required>{{ club.description }}</textarea>
+            </div>
+            <div class="mb-3">
+                <label for="category" class="form-label">Category</label>
+                <input type="text" id="category" name="category" class="form-control" value="{{ club.category }}" required>
+            </div>
+            <div class="mb-3">
+                <label for="meeting_time" class="form-label">Meeting Time</label>
+                <input type="text" id="meeting_time" name="meeting_time" class="form-control" value="{{ club.meeting_time }}">
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" id="location" name="location" class="form-control" value="{{ club.location }}">
+            </div>
+            <button type="submit" class="btn btn-primary">Update Club</button>
+            <a href="{{ url_for('list_clubs') }}" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+id,name,description,category,image_url,is_favorite
+1,Pharmacy Students Association,A club for pharmacy students to engage in professional development.,Academic,,0
+2,Medical Laboratory Students Association,A platform for medical lab students to exchange knowledge.,Academic,,0
+3,Community Health Students Association,Promotes community health awareness and initiatives.,Health,,0
+4,Hospitality and Tourism Association,For students passionate about hospitality and tourism.,Professional,,0
+5,Dental Technology Students Association,Brings together dental technology students for learning and networking.,Academic,,0
+6,Public Health Students Association,Focuses on public health awareness and activities.,Health,,0
+7,Information Technology Students Association,A club for IT students interested in software and hardware technologies.,Technology,,0
+8,Biomedical Laboratory Students Association,Supports biomedical lab students in research and networking.,Academic,,0
+9,Management Science Students Association,A club for management and business students.,Business,,0
+10,Animal Health Students Association,Dedicated to animal health and veterinary studies.,Health,,0
+11,I Choose Life Movement,A youth movement promoting positive life choices.,Social,,0
+12,Business Executives,A network for aspiring business leaders and entrepreneurs.,Business,,0
+13,Journalism Club,Enhances journalism and media skills among students.,Media,,0
+14,Debate Club,A club for students passionate about debating and public speaking.,Social,,0
+15,Journeys Club,Explores different cultures and life experiences.,Cultural,,0
+16,Scouts Club,"Encourages discipline, outdoor activities, and teamwork.",Adventure,,0
+17,Environmental Club,Promotes sustainability and environmental conservation.,Environment,,0
+18,Red Cross Society,Provides humanitarian aid and emergency response training.,Humanitarian,,0
+19,Bird Watchers Club,For students interested in birdwatching and conservation.,Nature,,0
+20,MKU Alumni Association,Connects MKU graduates and fosters networking.,Networking,,0
+21,Clinical Medicine Trainees Association,A professional platform for clinical medicine students.,Health,,0
+22,Muslim Students Association,A faith-based association for Muslim students.,Religious,,0
+23,Young Catholic Society,A club for Catholic students to grow spiritually.,Religious,,1
+24,Christian Union,A Christian fellowship for worship and study.,Religious,,0
+25,Seventh Day Adventists Group,A club for Seventh-Day Adventist students.,Religious,,0
+26,Peace Club,Promotes peace and conflict resolution among students.,Social,,0
+27,Rover Club,A scouting group for adventure and leadership.,Adventure,,0
+28,Divas of MKU Club,Empowers female students in leadership and self-development.,Empowerment,,0

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Mku Club Connect</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Custom Styles */
+        body {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            animation: fadeInUp 1.2s ease-in-out;
+        }
+
+        .btn-custom {
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn-primary {
+            background-color: #ff4081;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #e60073;
+        }
+
+        .btn-secondary {
+            background-color: #00c853;
+            border: none;
+        }
+
+        .btn-secondary:hover {
+            background-color: #009624;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Welcome to the Club Recommendation System</h1>
+        <p>Discover new clubs, meet like-minded people, and explore exciting activities on campus.</p>
+
+        <a href="{{ url_for('clubs') }}" class="btn btn-primary btn-custom">Explore Clubs</a>
+        <a href="{{ url_for('recommend') }}" class="btn btn-secondary btn-custom">Get Recommendations</a>
+        <a href="{{ url_for('login') }}" class="btn btn-light btn-custom">Login</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{% extends 'base1.html' %}
+
+{% block title %}Manage Events - MKU Club Connect{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Manage Events</h2>
+    
+    <div class="text-right mb-3">
+        <a href="{{ url_for('add_event') }}" class="btn btn-success">Add New Event</a>
+    </div>
+
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for event in events %}
+            <tr>
+                <td>{{ event.id }}</td>
+                <td>{{ event.name }}</td>
+                <td>{{ event.description }}</td>
+                <td>{{ event.date.strftime('%Y-%m-%d %H:%M') }}</td>
+                <td>{{ event.location }}</td>
+                <td>
+                    <a href="{{ url_for('edit_event', event_id=event.id) }}" class="btn btn-primary btn-sm">Edit</a>
+                    <a href="{{ url_for('delete_event', event_id=event.id) }}" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

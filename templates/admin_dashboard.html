@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Admin Dashboard - MKU Club Connect</title>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: white;
+        }
+        .navbar {
+            background: linear-gradient(45deg, #003366, #00509E);
+        }
+        .navbar a {
+            color: white;
+            transition: color 0.3s ease;
+        }
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #003366;
+            color: white;
+            padding-top: 20px;
+            transition: width 0.3s ease;
+            overflow-y: auto;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .footer {
+            background: linear-gradient(45deg, #003366, #00509E);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="{{ url_for('home') }}">MKU Club Connect</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('list_clubs') }}">Clubs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('events') }}">Events</a>
+                </li>
+                {% if current_user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('admin_dashboard') }}">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('register') }}">Register</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <style>
+        /* Sidebar Styling */
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #003366;
+            color: white;
+            padding-top: 20px;
+            transition: width 0.3s ease;
+            overflow-y: auto;
+        }
+
+        .sidebar a {
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #00509E;
+        }
+
+        .sidebar .text-muted {
+            color: white !important;
+        }
+
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            min-height: 100vh;
+            padding-bottom: 50px;
+        }
+    </style>
+    <div class="sidebar">
+        <div class="text-center mb-4">
+            <i class="fas fa-user-circle fa-5x text-light"></i>
+            <h6 class="mt-2">Admin</h6>
+            <small class="text-muted" style="color: white;">Administrator</small>
+        </div>
+        <h4 class="text-center mb-3">Admin Panel</h4>
+        <a href="{{ url_for('manage_users') }}"><i class="fas fa-users"></i> Manage Users</a>
+        <a href="{{ url_for('manage_clubs') }}"><i class="fas fa-users-cog"></i> Manage Clubs</a>
+        <a href="{{ url_for('manage_events') }}"><i class="fas fa-calendar-alt"></i> Manage Events</a>
+        <a href="{{ url_for('reports') }}"><i class="fas fa-chart-line"></i> Reports</a>
+        <a href="{{ url_for('admin_notifications') }}"><i class="fas fa-bell"></i> Notifications</a>
+        <a href="{{ url_for('settings') }}"><i class="fas fa-cogs"></i> Settings</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2 class="text-center">Admin Dashboard</h2>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card bg-primary text-white">
+                    <div class="card-header">Total Users</div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ user_count }}</h5>
+                        <p class="card-text">Manage all registered users.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-success text-white">
+                    <div class="card-header">Total Clubs</div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ club_count }}</h5>
+                        <p class="card-text">Monitor club activities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-info text-white">
+                    <div class="card-header">Upcoming Events</div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ event_count }}</h5>
+                        <p class="card-text">Track upcoming club events.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © 2024 MKU Club Connect. All rights reserved.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

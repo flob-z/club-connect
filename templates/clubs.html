@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">Explore Clubs</h1>
+    <p class="text-center text-muted">Find and join clubs that match your interests at MKU</p>
+
+    <!-- Search Bar -->
+    <div class="container mt-4">
+        <input type="text" id="search-bar" class="form-control" placeholder="Search for clubs...">
+    </div>
+
+    <!-- Club Listings -->
+    <div class="row mt-3">
+        {% for club in clubs %}
+        <div class="col-md-4 mb-4 club-card">
+            <div class="card h-100 shadow-sm">
+                <img src="{{ club['image_url'] if club['image_url'] else 'https://via.placeholder.com/300x300?text=No+Image+Available' }}" class="card-img-top" alt="Club Image" style="height: 300px; object-fit: cover;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">{{ club['name'] }}</h5>
+                    <p class="card-text">{{ club['description'][:100] }}...</p>
+                    <p class="card-text text-muted">Founded: {{ club['created_at'] }}</p>
+                    
+                    <!-- Club Rating Display with Stars -->
+                    <p class="card-text">
+                        ⭐ Rating: 
+                        <span class="rating-stars">
+                            {% for i in range(1, 6) %}
+                                {% if club['rating'] >= i %}
+                                    <i class="fas fa-star text-warning"></i>
+                                {% elif club['rating'] >= i - 0.5 %}
+                                    <i class="fas fa-star-half-alt text-warning"></i>
+                                {% else %}
+                                    <i class="far fa-star text-warning"></i>
+                                {% endif %}
+                            {% endfor %}
+                        </span>
+                        ({{ club['rating'] }}/5)
+                    </p>
+
+                    <!-- Star Rating with Auto-Submit -->
+                    <label for="rating-{{ club['id'] }}">Rate this Club:</label>
+                    <div class="star-rating" data-club-id="{{ club['id'] }}">
+                        <input type="radio" name="rating" value="5" id="star5-{{ club['id'] }}"><label for="star5-{{ club['id'] }}">⭐</label>
+                        <input type="radio" name="rating" value="4" id="star4-{{ club['id'] }}"><label for="star4-{{ club['id'] }}">⭐</label>
+                        <input type="radio" name="rating" value="3" id="star3-{{ club['id'] }}"><label for="star3-{{ club['id'] }}">⭐</label>
+                        <input type="radio" name="rating" value="2" id="star2-{{ club['id'] }}"><label for="star2-{{ club['id'] }}">⭐</label>
+                        <input type="radio" name="rating" value="1" id="star1-{{ club['id'] }}"><label for="star1-{{ club['id'] }}">⭐</label>
+                    </div>
+                </div>
+
+                <div class="card-footer text-center">
+                    <a href="{{ url_for('club_detail', club_id=club['id']) }}" class="btn btn-info">View Details</a>
+                    <form action="{{ url_for('join_club', club_id=club['id']) }}" method="POST" class="mt-2">
+                        <button type="submit" class="btn btn-success">Join Club</button>
+                    </form>
+                    <form method="POST" action="{{ url_for('toggle_favorite_club', club_id=club['id']) }}" class="mt-2">
+                        <button type="submit" class="btn {% if club['is_favorite'] %}btn-warning{% else %}btn-outline-warning{% endif %}">
+                            {% if club['is_favorite'] %}⭐ Unfavorite{% else %}⭐ Favorite{% endif %}
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <p class="text-center text-muted">No clubs found for your search.</p>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- FontAwesome for Stars -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<!-- Star Rating CSS -->
+<style>
+    .star-rating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .star-rating input {
+        display: none;
+    }
+    .star-rating label {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .star-rating input:checked ~ label {
+        color: gold;
+    }
+</style>
+
+<!-- JavaScript for Auto-Submit Rating and Search Functionality -->
+<script>
+// Auto-submit rating
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".star-rating input").forEach(input => {
+        input.addEventListener("change", function() {
+            let clubId = this.closest(".star-rating").getAttribute("data-club-id");
+            let ratingValue = this.value;
+
+            fetch(`/rate_club/${clubId}`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ rating: ratingValue }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log("Rating submitted:", data);
+                alert("Rating submitted successfully!");
+            })
+            .catch(error => console.error("Error submitting rating:", error));
+        });
+    });
+});
+
+// Search functionality
+document.getElementById("search-bar").addEventListener("keyup", function() {
+    let query = this.value.toLowerCase();
+    document.querySelectorAll(".club-card").forEach(card => {
+        let clubName = card.querySelector(".card-title").textContent.toLowerCase();
+        if (clubName.includes(query)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
+</script>
+
+{% endblock %}

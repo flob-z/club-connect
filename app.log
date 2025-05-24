@@ -1,0 +1,959 @@
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:04:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:04:29] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:04:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:04:34] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:04:34] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:05:00] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:05:00] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:06] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:11] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:11] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:23] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:32] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:32] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:35] "GET /edit_user/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:39] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:43] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:43] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:06:49] "GET /events HTTP/1.1" 200 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:50:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:50:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:50:56] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:50:56] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:54:01] "GET /club/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Apr/2025 15:54:01] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:25:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:25:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:26:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:27:25] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:27:25] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:28:18] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 11:28:18] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:11:45] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:11:45] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] code 400, message Bad request version ('I»àG\x91££«VÇ_\x18/\x83i\x19Öñ±\x08\x81¯ûð.')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x95\x95\x04s$\x0dÀO$L÷\x96\x02\x7fó(\x88\x95þ-\x9cï/WK<Ú§Åÿ=\x13 þ­«X£Är2½ø\x8fÍ@\x0d3\x9aÛ:U\x8bj\x90\x8c\x9a\x89í-í²h\x8eY\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00\x00#\x00\x00\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04ÀÎ[V{ZhÃsrµfÅ\x9fÕ\x0b\x1avUÊ¡+\x94uKp¤$å±Z(ÜY:a *ø \x9b«\x12\x18#y/\x09¥jö¨\x0d"/ \x15·Ù\x9bÎ®\x99Ã¹rF}\x10½A9«\x84º_ÇühÜ$\x94lúd\x93\x12\x8b\x8e×£A`Q\x0c\x9a>\x9aE&ã|M07·ÎA3þ\x1b\x16\x80\x06]ª\x92\x02\x07x$§\x16ª¦\x089%2$tÕÌMK\x82(\x03?_¤\x9c\x1a\x09I»àG\x91££«VÇ_\x18/\x83i\x19Öñ±\x08\x81¯ûð.\x1e[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03½q,Ì\x84A\x88Ä\x8e\x03\x90z\x90úëúèël9Þµr\x0c&!x\x0e\x80;8S ´Fº0P\x96'í\x86\x9e\x92¸Ø'\x9eð\x05»0Ôw\x97ÊÓÖ|Î7\x0e9\x89r\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93jj\x00\x00\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] code 400, message Bad request version ('ÒµÔu¦')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¹\x97'\x05ys¥J¼\x84ÍÒ(d\x85GWÓ\x04ï#T\x13\x09\x94\x8c\x86\x93Á&rø r,ªé¶\x09³±æ\x1f©â\x1e±H\x9dé\x04\x049¨¡W\x89ÔZh¹Î\x80\x9bô\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ºº\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ºº\x03\x04\x03\x03þ\x0d\x01\x1a\x00\x00\x01\x00\x015\x00 Ò»tG´\x88\x07i·î\x0dN\x89×R³\x04{\x15ôÃL\x9e\x11Íy\x04df\x97e4\x00ð\x1d®Ü\x9eÒ\x95}d\x8bC\x01\x94_\x93ÔÂ\x06\x91JôWK\x8bÿ\x86G{\x9b9\x87eÿ\x06~QÚ\x94õÜê\x05\x08\x89ãfÜ ÔcÙî\x98K\x1ai\x85è\x19/I=´G}^^êDÄ²]\x83÷Xû4Ï=\x0eIG=ìáä~ý\x87;ZO\x82pqÝ\\\x83KJÝ$\x00æñý=\x9cøÎ|{ì¢)\x00\x99ÛúÌ©×#¶b»ñÖ;ñð/Æ·\x9a¿\x17vð\x86>¬\x1b\x8b«NöFì`\x96h=\x9cD\x01\x02áW­9ìiZo6Ç\x8aúü\x18\x95Ô\x91ôq\x09ííå=D\x0c´\x82\x7f\x82\x808\x84f\x05®\x8a¸Êè){×¶¬IL0¦Y¹ý¨Úg~mÞ\x94°ò\x84¹iÜ­Ñøëì\x94­¹ñÍõø§\x0cÚ\x91³\x95Á\x003\x04ï\x04í::\x00\x01\x00\x11ì\x04À\x94Ù\x83,#Ç\x02f\x80={\x17C\x04²ÿA\x09HP8\x8dÅBÅÕ¤³\x8c¬ ¶\x82m\x8a§$1\x9e¦j\x03Y \x8a'ê£nà\x92Gk\x14\x80d\x9b\x03ì\x8a\x16ú<\x16C2»\x1ag$C4ª!\x17Ê±\x15\x91!^n¨UQ:G\x1d¶\x9bÔè\x9ev²)^ð«¸Óm\x16«­NDO¼µ¥æ\x06\x81\x1bé\x9bÌ0\x9e\x95÷¬½ùMÑåÏø`P\x0fÊ/ð\x01¾EÒ=¢\x09\x16¨Úo6\x86\x0cCõ|Õ\x93¨3A\x01\x89Û²NFBâ3S\\3ÀÈ;«öK\x0e\x15ü³_ì\x01ÆÐ\x02\x02U\x96\x9bÛÀ.³t/èDÀÅGm¸:6\x17'6ü\x02Ô°\x9b×ì\x1d¥µ©´²Ä ÒÅ¯ÓÉ Æ¼´j¬}ôK^\x17Âek\x80¡Wc\x18SK^\x97\x0fÔrp#zV\x80\x00\x16qô¤FKÃ\x13º½>9\x9a\x9e#§>Ì¾d\x87Ã\x03K\x87\x96jÇ«¢]ôê\x1c÷\\~g¬«\x9cg#\x1eÒµÔu¦[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] code 400, message Bad request version ('I¸åÌöR\x8f÷ÃØ')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:13:43] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03yð1ê\x0b\x81ÿ!dÇ×±Ô¸°\x98`ÅåÈ^ÆÄ\x7f¡\x07s^ì¾\x98¦ !\x120A\x96a{Í\x9d4Û°iwÈW\x7f\x91.\x95\x1b\x9c\x14q*Ù¾D\x9cD\x1bÜ\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93JJ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1þ\x0d\x01\x1a\x00\x00\x01\x00\x01¼\x00 ~Áï[\x84ÁRlmªù S\x94cB½\x11 i\x94\x89*¤oÖD·l\x9b<\x1d\x00ð\x8cR\x85I¸åÌöR\x8f÷ÃØ[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] code 400, message Bad request version ('\x19\x053öV2?¶§/zJýà°ø\x8b\x95¤\x95')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x9d®\x04\x0bvæ\x92M\x93\x94ì»xÊFë3P°\x9f\x0c1\x06\x10-ì5VÞ¼Ý\x0d N\x02Ï\x80u¤æ\x8eðdÀó\x08\x857ó1n\x97`b\x10Ü-;\x9aÁ\x08îò¶÷\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sZZ\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04Àïr¸@\x02¢\x08§Cm%§Rõ$¿LxäÊ¾+\x9a"\x98Ë\x7fðà\x180eA±é£ÅË©\x9cK \x8e\x17lñtaÎb\x8d\\èA}{C VR}:µ6\x09\x87ÇØ\x0dI0\x0ct!Ê\x13ÔB;Ì;Ã\x80°Pñ\x05îe\\\x17ÑVù\x06»\x89\x15®dÓ\x03\x058\x85Rä\x91¬¤Å\x15Ì²%Ì\x1f\x04%®\x84\x15D¼e#Þà\x89:F¾!\x92\x81ÌQ\x7f,ÊÂË´G\x05º»é\x19*\x95\x1bYí«M\x03°NQRa\x92iÇ|Ú\x03ø\x03\x82\x96ø\x0c\x19\x053öV2?¶§/zJýà°ø\x8b\x95¤\x95[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] code 400, message Bad request version ('Ê\x89(³U\x92\x8d\x88|¯´\x08')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x030Ó1\x0cù\x81þå÷\x1dÊ\x89(³U\x92\x8d\x88|¯´\x08[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] code 400, message Bad request version ('ÀpI§ó¤Qr~!µ!Òj5')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03É§sÑ8uYÃ\x17,_tAN\x03\x80A1\x95°b\x8e]Ï\x1au\x8a93\x15Ð\x0c ÌØí\x1b\x91\x8d%Ú~\x96hð¢ØÏõ#\x0f\x99õÏ!j\x0cgÐdf\x1a.\x0c\x7f\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x9a\x9a\x00\x00\x003\x04ï\x04í\x1a\x1a\x00\x01\x00\x11ì\x04À\x1cAF\x1c¸¶ö\x9a\x8aÑQ\x17=Z\x006ÛÉ\x08Õ?\x8eùweÑ\x0e=\x18~R\x07\x0eìÖW?ú3¤z2µc ÀpI§ó¤Qr~!µ!Òj5[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] code 400, message Bad request version ('ÃÍ@\x7f¨nQ')
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:14:09] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x05r×\x97\x9e©X\x81\x83áØ\x035U$é$\x13$Æ\x1b¡w\x84±­ÒÒÞF»\x88 ÃÍ@\x7f¨nQ[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:46] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:46] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:55] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:15:55] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:09] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:15] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:16] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:37] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:39] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:39] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:42] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:42] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:52] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:58] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:16:59] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:01] "GET /edit_user/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:05] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:09] "[35m[1mGET /edit_club/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:10] "GET /edit_club/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:10] "GET /edit_club/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:10] "GET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png&s=fm0nPgU1d3iy289pGwCt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:10] "GET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:15] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:15] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:20] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:39] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:43] "GET /settings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:45] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:45] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:48] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:58] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:17:58] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:21] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:27] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:48] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:53] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:53] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:18:57] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:19:05] "[35m[1mGET /admin_profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:19:05] "GET /admin_profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:19:05] "GET /admin_profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:19:05] "GET /admin_profile?__debugger__=yes&cmd=resource&f=console.png&s=fm0nPgU1d3iy289pGwCt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:19:05] "GET /admin_profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:22:38] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:22:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:22:41] "[35m[1mGET /edit_club/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:22:41] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:22:41] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:22:41] "GET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png&s=XzSfyXgLnxbbxXohwaoi HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:26] "[35m[1mGET /edit_club/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:27] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:27] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:27] "GET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png&s=vehEZACkZ0UaSknQqrmB HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:28] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:42] "[35m[1mGET /edit_club/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:42] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:42] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:42:42] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png&s=vehEZACkZ0UaSknQqrmB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:43:47] "[35m[1mGET /edit_club/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:43:47] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:43:47] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:43:48] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png&s=vehEZACkZ0UaSknQqrmB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:43:48] "[36mGET /edit_club/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:45:02] "GET /edit_club/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:45:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:45:30] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:45:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:45:38] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:45:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:13] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:16] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:24] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:29] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:30] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:32] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:34] "GET /settings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 14:13:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:44] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:55] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:26] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:38] "GET /edit_club/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:41] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:44] "[35m[1mGET /edit_event/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:44] "GET /edit_event/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:44] "GET /edit_event/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:45] "GET /edit_event/1?__debugger__=yes&cmd=resource&f=console.png&s=Kz5TMPMOBaqtiCgCmvNc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:45] "GET /edit_event/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:07:29] "[35m[1mGET /edit_event/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:07:29] "[36mGET /edit_event/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:07:29] "[36mGET /edit_event/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:07:29] "GET /edit_event/1?__debugger__=yes&cmd=resource&f=console.png&s=ZpHGCX47Fpkuk7SbReml HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:23] "GET /edit_event/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:43] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:44] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:08:54] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:16:11] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:20:33] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:25:32] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:03] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:03] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:31] "[35m[1mGET /events HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:32] "GET /events?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:32] "GET /events?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:32] "GET /events?__debugger__=yes&cmd=resource&f=console.png&s=iUBUEFWDtt0XJpgNaI18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:32] "GET /events?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:44] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:44] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:53] "[35m[1mGET /admin/notifications HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:53] "GET /admin/notifications?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:53] "GET /admin/notifications?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:53] "GET /admin/notifications?__debugger__=yes&cmd=resource&f=console.png&s=iUBUEFWDtt0XJpgNaI18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:53] "GET /admin/notifications?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:57] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:57] "GET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:57] "GET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:57] "GET /reports?__debugger__=yes&cmd=resource&f=console.png&s=iUBUEFWDtt0XJpgNaI18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:30:57] "GET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:38] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:40] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:56] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:56] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:56] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:56] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=VhPU2b62RlwLafActfke HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:31:56] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:12] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:16] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:16] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:40] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:48] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:50] "[35m[1mGET /admin_profile HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:50] "[36mGET /admin_profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:50] "[36mGET /admin_profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:34:50] "GET /admin_profile?__debugger__=yes&cmd=resource&f=console.png&s=vxFq8Tb9kr7g80CBY6G2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:40:09] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:41:36] "GET /admin_profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:08] "GET /admin_profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:18] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:25] "GET /edit_user/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:35] "[32mPOST /edit_user/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:35] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:41] "GET /edit_user/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:46] "GET /edit_user/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:57] "[32mPOST /edit_user/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:57] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:43:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:00] "GET /edit_user/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:08] "[32mPOST /edit_user/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:08] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:12] "GET /edit_user/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:19] "[32mPOST /edit_user/5 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:19] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:26] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:26] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:38] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:44:38] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:40] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:44] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:56] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:06:56] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:18] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:28] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:34] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:38] "GET /manage_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:41] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:43] "GET /manage_events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:45] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:50] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:56] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:59] "GET /settings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:07:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:01] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:05] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:09] "GET /admin_profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:35] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:39] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:42] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:49] "POST /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:56] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:08:56] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:06] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:06] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:11] "GET /user_notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:21] "GET /user_notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:35] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:37] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:37] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:45] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:45] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:48] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:09:48] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:10:10] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:10:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:10:17] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:10:17] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:10:22] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:10:22] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:11] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:13] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:13] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:16] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:17] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:17] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:19] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:21] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:21] "GET /login?next=/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:24] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:24] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:26] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:26] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:35] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:39] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:39] "GET /login?next=/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 17:11:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 22:18:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 22:18:27] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:14:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:14:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:15:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:15:37] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:15:37] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:16:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:16:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:16:48] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:16:48] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:27] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:45] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:52] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:58] "GET /events HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:18:59] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:00] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:09] "GET /admin_profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:18] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:21] "GET /admin/notifications HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:22] "GET /settings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:24] "GET /manage_users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:32] "GET /admin_profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:53] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:53] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:19:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:01] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:06] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:06] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:15] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:15] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:32] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:20:32] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:21:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:21:30] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:21:30] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:21:36] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:21:36] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:22:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:22:29] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:22:29] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:22:32] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:22:32] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:01] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:22] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:22] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:27] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:27] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:34] "[32mPOST /toggle_favorite_club/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:34] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:34] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:47] "POST /rate_club/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:23:59] "POST /rate_club/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:02] "POST /rate_club/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:10] "POST /rate_club/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:13] "POST /rate_club/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:16] "POST /rate_club/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:24] "POST /rate_club/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:29] "POST /rate_club/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:36] "POST /rate_club/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:24:59] "POST /rate_club/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:03] "POST /rate_club/11 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:06] "POST /rate_club/12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:11] "POST /rate_club/13 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:14] "POST /rate_club/14 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:17] "POST /rate_club/15 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:27] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:38] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:38] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:43] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:43] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:48] "POST /rate_club/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:51] "POST /rate_club/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:54] "POST /rate_club/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:25:58] "POST /rate_club/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:01] "POST /rate_club/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:04] "POST /rate_club/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:09] "POST /rate_club/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:12] "POST /rate_club/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:15] "POST /rate_club/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:20] "POST /rate_club/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:24] "POST /rate_club/11 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:27] "POST /rate_club/12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:31] "POST /rate_club/13 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:35] "POST /rate_club/14 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:26:37] "POST /rate_club/15 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:27:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:27:00] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:27:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:27:07] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:27:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:35:49] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:35:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:10] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:16] "GET /login?next=/logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:16] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:29] "[32mPOST /login?next=/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:29] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:29] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:35] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:36:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:38:47] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:38:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:34] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:34] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:37] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:37] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:44] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:39:59] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:02] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:02] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:08] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:08] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:14] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:40:14] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:41:35] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:41:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:41:38] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:41:38] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:42:34] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:42:34] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:42:37] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:42:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:42:49] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:42:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:43:34] "GET /recommend_clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:43:34] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:46:52] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:46:52] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:46:54] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:47:13] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:47:13] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:47:15] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:47:15] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:47:18] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:47:21] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:52:32] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:52:36] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:52:40] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:54:50] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:54:54] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:55:44] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 15:55:46] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:02:56] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:02:58] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:02:59] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:02:59] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:02:59] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:13:09] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:13:14] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:13:14] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:13:16] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:13:34] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:15] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:15] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:20] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:37] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:38] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=N5sx2q2tUdVzuDuiDyCo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:22:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:14] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=oSuUhnbuiDVIN3PjdhxP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:49] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:49] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:23:51] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:27:57] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-564-434
+ERROR:root:Popular dataframe is empty or None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:33:17] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:root:Popular dataframe is empty or None.
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:33:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2025 16:47:31] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:18:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:18:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:18:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:20] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:23] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:23] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=ceP6fYoCx08CahC9wxFo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:19:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:43:30] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:13] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:13] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:21] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:27] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:45] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:45] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:57] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:47:57] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:48:06] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:48:06] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 15:48:12] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:37] "[35m[1mGET /recommend?student_id=1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:37] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:38] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:38] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=jo9WJ4stVooVcTnfYHOk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:38] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:51] "[35m[1mGET /recommend?student_id=0 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:52] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:52] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:52] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=jo9WJ4stVooVcTnfYHOk HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:59] "[35m[1mGET /recommend?student_id=0 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:59] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:59] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:06:59] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=jo9WJ4stVooVcTnfYHOk HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:07:00] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:07:06] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:07:20] "[35m[1mGET /recommend?student_id=0 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:07:20] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:07:20] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:07:21] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=jo9WJ4stVooVcTnfYHOk HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:06] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:06] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:18] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:18] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:23] "[35m[1mGET /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:24] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:24] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:14:24] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=r0gBYhzlPL94rldn9Icw HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:25:02] "GET /recommend HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:25:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:25:42] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:25:42] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:25:43] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=fJUgYEsZN6k74nAusf4D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:25:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:26:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:26:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:26:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:26:42] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=qvZsB8vkolhPNZQbaNOK HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:30:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:30:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:30:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:30:27] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=M0qKFTl45Y7KYG2YxhBE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:04] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:11] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:11] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:14] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=M0qKFTl45Y7KYG2YxhBE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:14] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:43] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:43] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:48] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:56] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:34:57] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:35:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:35:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:35:07] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:35:14] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:35:38] "[31m[1mGET /recommend HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:00] "[35m[1mGET /recommend?student_id=1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:00] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:00] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:01] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=tCHqKfjqsPE3haJVlU9U HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:53] "[35m[1mGET /recommend?student_id=1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:53] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:53] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:36:54] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=6s6WHn49JAQFogvkQpso HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:01] "[35m[1mGET /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:01] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:01] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:01] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=6s6WHn49JAQFogvkQpso HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:13] "GET /clubs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:13] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:15] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:27] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:42] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:42] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:57] "[35m[1mGET /recommend HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:57] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:57] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 16:37:57] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=6s6WHn49JAQFogvkQpso HTTP/1.1[0m" 304 -
