@@ -1070,3 +1070,112 @@ INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:14:22] "[36mGET /dashboard?__debugg
 INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:14:22] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:14:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=lnIl4ChfUEfc0XGUdObs HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:14:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:20:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:20:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:20:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:20:41] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=lnIl4ChfUEfc0XGUdObs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:20:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:20:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:23:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:23:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:23:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:23:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=lnIl4ChfUEfc0XGUdObs HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:23:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:38] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:56] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:27:56] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=SSNrSwPITYG73CCraH72 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:05] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:05] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+ERROR:root:Recommendation error: Could not build url for endpoint 'recommend'. Did you mean 'handle_recommendation' instead?
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:10] "[32mGET /handle_recommendation HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:10] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:10] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+ERROR:root:Recommendation error: Could not build url for endpoint 'recommend'. Did you mean 'handle_recommendation' instead?
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:49] "[32mGET /handle_recommendation HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:49] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:49] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:21] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:21] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+ERROR:root:Recommendation error: Could not build url for endpoint 'recommend'. Did you mean 'handle_recommendation' instead?
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:26] "[35m[1mGET /handle_recommendation HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:27] "GET /handle_recommendation?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:27] "GET /handle_recommendation?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:27] "GET /handle_recommendation?__debugger__=yes&cmd=resource&f=console.png&s=ZXsBQSL1n7bq8bVpdLbn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:35:27] "GET /handle_recommendation?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+ERROR:root:Recommendation error: Could not build url for endpoint 'recommend'. Did you mean 'handle_recommendation' instead?
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:37:27] "[35m[1mGET /handle_recommendation HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:37:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:37:27] "[36mGET /handle_recommendation?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:37:27] "[36mGET /handle_recommendation?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:37:27] "GET /handle_recommendation?__debugger__=yes&cmd=resource&f=console.png&s=zd62Rvvw1Ho5stWyGW8w HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+ERROR:root:Recommendation error: Could not build url for endpoint 'recommend'. Did you mean 'handle_recommendation' instead?
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:38:03] "[35m[1mGET /handle_recommendation HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:38:04] "[36mGET /handle_recommendation?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:38:04] "[36mGET /handle_recommendation?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:38:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:38:04] "GET /handle_recommendation?__debugger__=yes&cmd=resource&f=console.png&s=RvE71N4dM6JVShStEqbR HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:53] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=wOEVMoK6Sr5mwFvmpKLb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=SVDfyCZAaG0948iqPFj5 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat

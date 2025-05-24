@@ -152,6 +152,7 @@ def dashboard():
         name=session.get('user_name', 'User'),
         unread_notifications_count=unread_notifications_count
     )
+    
 @app.route('/clubs')
 def list_clubs():
     conn = connect_db()
@@ -862,7 +863,12 @@ def index():
 # def show_recommendations():
 #     return render_template('recommend.html')
 
-@app.route('/recommend', methods=['GET', 'POST'])
+@app.route('/recommend')
+@login_required
+def recommend():
+    return redirect(url_for('handle_recommendation'))
+
+@app.route('/handle_recommendation', methods=['GET', 'POST'])
 @login_required
 def handle_recommendation():
     try:
@@ -939,7 +945,7 @@ def handle_recommendation():
     except Exception as e:
         logging.error(f"Recommendation error: {str(e)}")
         flash("An error occurred while generating recommendations", "danger")
-        return redirect(url_for('dashboard'))
+        return render_template('recommend.html', data=[], message="An error occurred while generating recommendations.")
 
             
 @app.route('/clubs')
