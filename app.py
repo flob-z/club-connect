@@ -293,16 +293,16 @@ def recommend_clubs(student_id, top_n=3):
     
     return club_names
 
-@app.route("/recommend", methods=["GET"])
-@login_required
-def get_recommendations():
-    student_id = current_user.id  # Use the logged-in user's ID
-    # student_id = request.args.get("student_id")
-    if not student_id:
-        return jsonify({"error": "Student ID is required!"}), 400
+# @app.route("/recommend", methods=["GET"])
+# @login_required
+# def get_recommendations():
+#     student_id = current_user.id  # Use the logged-in user's ID
+#     # student_id = request.args.get("student_id")
+#     if not student_id:
+#         return jsonify({"error": "Student ID is required!"}), 400
     
-    recommendations = recommend_clubs(student_id)
-    return jsonify({"student_id": student_id, "recommended_clubs": recommendations})
+#     recommendations = recommend_clubs(student_id)
+#     return jsonify({"student_id": student_id, "recommended_clubs": recommendations})
 
 import MySQLdb
 
@@ -856,56 +856,92 @@ def index():
         logging.error(f"Error rendering index: {e}")
         return "An error occurred while processing your request", 500
 
-@app.route('/recommend')
-@login_required
-def recommend_clubs():
-    return render_template('recommend.html')
+# @app.route('/recommend')
+# @login_required
+# # def recommend_clubs():
+# def show_recommendations():
+#     return render_template('recommend.html')
 
 @app.route('/recommend', methods=['GET', 'POST'])
 @login_required
-def recommend():
+def handle_recommendation():
     try:
-        user_input = request.form.get('user_input')
+        if request.method == 'POST':
+            # Handle manual club input recommendations
+            user_input = request.form.get('user_input')
+            if not user_input:
+                flash("Please enter a club name", "warning")
+                return redirect(url_for('handle_recommendation'))
 
-        # Normalize the user input and club names for consistent matching
+            # Normalize input
+            user_input = user_input.strip().lower()
 
-        # Check if user_input is valid
-        if user_input not in [name.lower() for name in clubs['name'].values]:
-            logging.warning(f"Invalid user input: {user_input}")
-            return render_template('recommend.html', data=[], message="Club not found in the dataset.")
+            # Validate input against known clubs
+            if user_input not in [name.lower() for name in clubs['name'].values]:
+                flash("Club not found in the dataset", "danger")
+                return redirect(url_for('handle_recommendation'))
 
-        # Get the corresponding club ID from the dataset
-        club_id = clubs[clubs['name'].str.lower() == user_input]['club_id'].values[0]
+            # Get recommendations based on club similarity
+            club_id = clubs[clubs['name'].str.lower() == user_input]['club_id'].values[0]
+            
+            if club_id not in pt.index:
+                flash("Club not found in the pivot table", "danger")
+                return redirect(url_for('handle_recommendation'))
 
-        # Check if the club is present in the pivot table
-        if club_id not in pt.index:
-            logging.warning(f"Club ID {club_id} not found in the pivot table.")
-            return render_template('recommend.html', data=[], message="Club not found in the pivot table.")
+            index = list(pt.index).index(club_id)
+            similar_items = sorted(list(enumerate(similarity_scores[index])), 
+                                key=lambda x: x[1], reverse=True)[1:6]
 
-        index = list(pt.index).index(club_id)
+            data = []
+            for i in similar_items:
+                temp_df = clubs[clubs['club_id'] == pt.index[i[0]]]
+                item = {
+                    'name': temp_df['name'].iloc[0],
+                    'category': temp_df['category'].iloc[0],
+                    'image_url': temp_df['image_url'].iloc[0]
+                }
+                data.append(item)
 
-        # Get similar items using cosine similarity
-        similar_items = sorted(list(enumerate(similarity_scores[index])), key=lambda x: x[1], reverse=True)[1:6]
+            return render_template('recommend.html', similar_clubs=data)
 
-        data = []
-        for i in similar_items:
-            item = []
-            temp_df = clubs[clubs['club_id'] == pt.index[i[0]]]
+        else:
+            # Automatic recommendations for logged-in student
+            student_id = current_user.id
+            
+            # Get model-based recommendations
+            recommendations = recommend_clubs(student_id)
+            
+            # Get full club details for recommendations
+            recommended_clubs = []
+            conn = connect_db()
+            cursor = conn.cursor(MySQLdb.cursors.DictCursor)
+            
+            for club_name in recommendations:
+                cursor.execute("""
+                    SELECT id, name, description, category, image_url 
+                    FROM clubs WHERE name = %s
+                """, (club_name,))
+                club = cursor.fetchone()
+                if club:
+                    # Get average rating
+                    cursor.execute("SELECT AVG(rating) as avg_rating FROM club_ratings WHERE club_id = %s", (club['id'],))
+                    rating = cursor.fetchone()['avg_rating'] or 0
+                    club['rating'] = round(rating, 1)
+                    recommended_clubs.append(club)
+            
+            cursor.close()
+            conn.close()
 
-            # Extract club details, avoiding duplicates
-            item.extend(temp_df['name'].drop_duplicates().values.tolist())
-            item.extend(temp_df['category'].drop_duplicates().values.tolist())
-            item.extend(temp_df['image_url'].drop_duplicates().values.tolist())
-
-            # Ensure item contains expected values
-            data.append(item)
-
-        logging.info(f"Recommendation data: {data}")
-        return render_template('recommend.html', data=data)
+            return render_template('recommend.html', 
+                                 recommendations=recommended_clubs,
+                                 student_name=current_user.name)
 
     except Exception as e:
-        logging.error(f"Error during recommendation: {e}")
-        return render_template('recommend.html', data=[], message="An error occurred while processing your request.")
+        logging.error(f"Recommendation error: {str(e)}")
+        flash("An error occurred while generating recommendations", "danger")
+        return redirect(url_for('dashboard'))
+
+            
 @app.route('/clubs')
 def clubs():
     conn = connect_db()
