@@ -1179,3 +1179,27 @@ INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:26] "[36mGET /?__debugger__=yes&
 INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=SVDfyCZAaG0948iqPFj5 HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:10] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:10] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:30] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:31] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:37] "GET /handle_recommendation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:37] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:01:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:02:36] "[31m[1mPOST /recommend HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:02:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:02:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:02:41] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:02:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+ERROR:root:Popular dataframe is None.
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:04:04] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:04:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
