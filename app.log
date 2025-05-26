@@ -1203,3 +1203,13 @@ INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:02:41] "[33mGET /.well-known/appspe
 ERROR:root:Popular dataframe is None.
 INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:04:04] "[35m[1mGET /index HTTP/1.1[0m" 500 -
 INFO:werkzeug:127.0.0.1 - - [24/May/2025 20:04:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\karl\\Desktop\\MKU Club Connect\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:root:Error loading pickle files: [Errno 2] No such file or directory: 'popular.pkl'
+Traceback (most recent call last):
+  File "c:\Users\karl\Desktop\MKU Club Connect\app.py", line 832, in <module>
+    popular_df = pickle.load(open('popular.pkl', 'rb'))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'popular.pkl'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-108-685

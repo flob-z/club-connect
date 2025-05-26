@@ -835,7 +835,7 @@ try:
     similarity_scores = pickle.load(open('similarity_scores.pkl', 'rb'))
     logging.info("Pickle files loaded successfully.")
 except Exception as e:
-    logging.error(f"Error loading pickle files: {e}")
+    logging.error(f"Error loading pickle files: {e}", exc_info=True)
     popular_df = pt = clubs = similarity_scores = None
 
 @app.route('/index')
